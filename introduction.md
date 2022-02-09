@@ -1,8 +1,8 @@
 # Introduction
 
-Welcome to the Comm100 RESTful API help guide. Our APIs make it possible for you to integrate your applications with Comm100 Live Chat to achieve seamless data sharing. It is our goal to help the business to automate and enhance their customer support with innovative projects you can create using Comm100 API.
+1Welcome to the Comm100 RESTful API help guide. Our APIs make it possible for you to integrate your applications with Comm100 Live Chat to achieve seamless data sharing. It is our goal to help the business to automate and enhance their customer support with innovative projects you can create using Comm100 API.
 
-Note: Comm100 currently has two versions of our customer engagement platform.
+<a href="#auth">Note</a>: Comm100 currently has two versions of our customer engagement platform.
 
 *   If you started using Comm100 before Apr 19, 2021, and not yet upgraded to the latest platform, this is the correct API version(3.0) for you. Please use 3 as the version number in each API call.
 
@@ -14,7 +14,7 @@ Comm100 RESTful API must use **https** protocol. What the API requests should st
 
 *   If your Control Panel domain is portal1.comm100.io, all API requests (except for the API request in generating the access token) should start with <https://api1.comm100.io/api/v3/>.
 
-*   If your Control Panel domain is portal2.comm100.io, all API requests (except for the API request in generating the access token) should start with <https://api2.comm100.io/api/v3/>.
+*   <p id="auth">If your Control Panel domain is portal2.comm100.io, all API requests (except for the API request in generating the access token) should start with <https://api2.comm100.io/api/v3/>.</p>
 
 *   If your Control Panel domain is portal3.comm100.io, all API requests (except for the API request in generating the access token) should start with <https://api3.comm100.io/api/v3/>.
 
