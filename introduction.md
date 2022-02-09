@@ -2,7 +2,7 @@
 
 123Welcome to the Comm100 RESTful API help guide. Our APIs make it possible for you to integrate your applications with Comm100 Live Chat to achieve seamless data sharing. It is our goal to help the business to automate and enhance their customer support with innovative projects you can create using Comm100 API.
 
-<a href="#authentication">Note</a>: Comm100 currently has two versions of our customer engagement platform.  
+<a href="#auth">Note</a>: Comm100 currently has two versions of our customer engagement platform.  
 
 - If you started using Comm100 before Apr 19, 2021, and not yet upgraded to the latest platform, this is the correct API version(3.0) for you. Please use 3 as the version number in each API call.
 - If you started using Comm100 on/after Apr 19, 2021, ,or you have been upgraded to the latest platform, you need to use the [API 4.0 documentation](https://dash11.comm100.io/doc) .
@@ -30,7 +30,7 @@ Comm100 provides two authentication methods.
 
 For each method call, you must use your email and API_KEY.Authentication to the API is done via HTTP Basic Auth. Provide your email as the basic auth username and API_KEY as the password. You must authenticate for API requests. 
 
-<p id="authentication">Note:Comm100 recommends using OAuth authentication even though it supports the API_KEY type of authentication.</p>
+<p id="auth">Note:Comm100 recommends using OAuth authentication even though it supports the API_KEY type of authentication.</p>
 
 </div>
 <div>
