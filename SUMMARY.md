@@ -1,7 +1,7 @@
 # Table of contents
 
 * [x1 - agent-console-api](README.md)
-* [Introduction](<x1 server api (restful)- introduction.md>)
+* [Introduction](introduction.md)
 * [x1-visitor js api](<x1-visitor js api.md>)
 * [global api](global-api/README.md)
   * [Agent SSO](<global api/Agent SSO.md>)
