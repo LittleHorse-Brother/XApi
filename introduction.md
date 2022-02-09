@@ -16,7 +16,7 @@ Comm100 RESTful API must use **https** protocol. What the API requests should st
 - If your Control Panel domain is portal5.comm100.io, all API requests (except for the API request in generating the access token) should start with https://api5.comm100.io/api/v3/.
 - If your Control Panel domain is portal7.comm100.io, all API requests (except for the API request in generating the access token) should start with https://api7.comm100.io/api/v3/.
 
-## <p id="authentication">Authentication</p>
+## Authentication
 
 Comm100 provides two authentication methods.
 
@@ -30,7 +30,7 @@ Comm100 provides two authentication methods.
 
 For each method call, you must use your email and API_KEY.Authentication to the API is done via HTTP Basic Auth. Provide your email as the basic auth username and API_KEY as the password. You must authenticate for API requests. 
 
-Note:Comm100 recommends using OAuth authentication even though it supports the API_KEY type of authentication.
+<p id="authentication">Note:Comm100 recommends using OAuth authentication even though it supports the API_KEY type of authentication.</p>
 
 </div>
 <div>
